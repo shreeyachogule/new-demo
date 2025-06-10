@@ -7,6 +7,8 @@ const Home = () => {
          <Header/>
         <main>
          <h1>Welcome to Vivekanand College!</h1>
+          <img src="/Images/vck.jpg" className="imgStyle"/>
+          <button className=".explore-button">Apply Now</button>
 
          <p><strong>Vivekanand College</strong>is a premier educational institution dedicated to fostering academic excellence,innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.
          </p>
