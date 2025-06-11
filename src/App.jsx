@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="main-layout">
         <Header />
-        <div className="content">
+        <div>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/ContactPage" element={<ContactPage />} />

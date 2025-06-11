@@ -24,19 +24,18 @@ function Header() {
         <Link to="/" className="nav-item">
           Home
         </Link>
-        <Link to="/about" className="nav-item">
+        <Link to="/AboutPage" className="nav-item">
           About
         </Link>
-        <Link to="/courses" className="nav-item">
+        <Link to="/CoursesPage" className="nav-item">
           Courses
         </Link>
-        <Link to="/contact" className="nav-item">
+        <Link to="/ContactPage" className="nav-item">
           Contact
         </Link>
-        <Link to="/admissions" className="nav-item btn primary-btn">
+        <Link to="/AdmissionsPage" className="nav-item btn primary-btn">
           Apply Now!
         </Link>{" "}
-        {/* Apply Now button */}
       </nav>
       {/* Mobile Hamburger Button */}
       <button className="hamburger-menu" onClick={toggleDrawer}>
@@ -52,17 +51,16 @@ function Header() {
         <Link to="/" className="nav-item" onClick={closeDrawer}>
           Home
         </Link>
-        <Link to="/about" className="nav-item" onClick={closeDrawer}>
+        <Link to="/AboutPage" className="nav-item" onClick={closeDrawer}>
           About
         </Link>
-        <Link to="/courses" className="nav-item" onClick={closeDrawer}>
+        <Link to="/CoursesPage" className="nav-item" onClick={closeDrawer}>
           Courses
         </Link>
-        <Link to="/contact" className="nav-item" onClick={closeDrawer}>
+        <Link to="/ContactPage" className="nav-item" onClick={closeDrawer}>
           Contact
         </Link>
-        <Link
-          to="/admissions"
+        <Link to="/AdmissionsPage"
           className="nav-item btn primary-btn"
           onClick={closeDrawer}
         >
